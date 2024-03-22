@@ -1,0 +1,145 @@
+.socialMediaButton span img {
+    width: 22px;
+    height: 22px;
+}
+
+.socialMediaButton ul {
+    padding: 0px;
+}
+
+.socialMediaButton li {
+    list-style: none;
+}
+
+.rightColumn {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.rightColumnContent button {
+    border: none;
+    background-color: #2f2e2e;
+    padding: 22px;
+    cursor: pointer;
+}
+
+.columnCenter span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 8vh;
+}
+
+.columnBottom img,
+.columnTop img {
+    width: 35px;
+    height: 35px;
+}
+
+.columnTop span {
+    color: white;
+}
+
+.logoHeader {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: transparent;
+    padding: 19px;
+}
+
+.logoHeader ul {
+    padding: 0px;
+}
+
+.logoHeader li {
+    list-style: none;
+}
+
+.logoHeader a {
+    text-decoration: none;
+    color: #2e2f2f;
+    font-weight: lighter;
+}
+
+.heroImg {
+    background-image: url("https://mb.cision.com/Public/290/3522898/816d22adac53467f_org.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.logoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100%-70px);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*.logoContent span svg {
+    width: 20px;
+    height: 20px;
+    margin: 0 20px;
+}*/
+
+.logoContentRight {
+    display: flex;
+}
+
+.logoContentRight button {
+    cursor: pointer;
+}
+
+.logoContentLeft {
+    display: flex;
+    visibility: hidden;
+    user-select: none;
+}
+
+.logoContentRight span,
+.logoContentLeft span {
+    display: flex;
+}
+
+.logoContent a h1 {
+    font-size: 29px;
+    font-family: "Spring";
+}
+
+.logoContentRight button,
+.logoContentLeft button {
+    background-color: transparent;
+    margin: 0px 10px;
+    border: none;
+}
+
+.headerButton span {
+    align-items: center;
+}
+
+.headerButtonImg {
+    padding: 0 10px;
+}
+
+.logoContentRight button img,
+.logoContentLeft button img {
+    width: 20px;
+    height: 20px;
+}

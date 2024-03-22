@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+main {
+    width: calc(100%-79px);
+    margin: 0 79px;
+}
+
+/*::-webkit-scrollbar {
+    width: 0px;
+}*/
+
+@font-face {
+    font-family: "Spring";
+    src: url("../FONT/Fontspring-DEMO-singolarestencil-bold.otf");
+}
