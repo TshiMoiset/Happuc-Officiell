@@ -11,10 +11,14 @@
 
     <link rel="shortcut icon" href="LOGOS/HappucIcon.png" type="image/x-icon">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/mediaQueries.css">
+
+    <!-- JAVASCRIPT -->
+    <script defer src="JS/menu.js"></script>
 
 </head>
 
@@ -28,14 +32,14 @@
                 <button class="headerButton">
                     <span>
                         <div class="headerButtonImg">
-                            <img src="ICONS/plus-solid.svg" alt="">
+                            <img src="ICONS/bars-solid.svg" alt="">
                         </div>
                         <div class="headerButtonText">
                             <p>Contact</p>
                         </div>
                     </span>
                 </button>
-                
+
                 <button class="headerButton">
                     <span>
                         <div class="headerButtonImg">
@@ -46,7 +50,7 @@
                         </div>
                     </span>
                 </button>
-                
+
                 <button class="headerButton">
                     <span>
                         <div class="headerButtonImg">
@@ -115,8 +119,8 @@
 
             <div class="rightColumnContent columnTop">
 
-                <button>
-                    <span><img src="ICONS/bars-solid.svg" alt=""></span>
+                <button id="openNavbutton" onclick="openNavbar()">
+                    <span><img src="ICONS/bars-solid.svg" alt="bars-solid"></span>
                 </button>
 
             </div>
@@ -156,6 +160,24 @@
                 </button>
 
             </div>
+
+        </div>
+
+        <div class="hamburgerMenu" id="hamburgerMenu">
+
+            <ul>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">LookBook</a></li>
+                <li><a href="#">Dresses</a></li>
+                <li><a href="#">Skirts</a></li>
+                <li><a href="#">Blues</a></li>
+                <li><a href="#">Coats</a></li>
+                <li><a href="#">Blazers</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Shoes</a></li>
+            </ul>
+
+            <button id="closeNavbar" onclick="closeNavbar()"><span><img src="ICONS/circle-xmark-regular.svg" alt=""></span></button>
 
         </div>
 

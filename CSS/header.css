@@ -22,7 +22,7 @@
     box-sizing: border-box;
     height: 100vh;
     background-color: transparent;
-    z-index: 1;
+  /*  z-index: 1;*/
 }
 
 .rightColumnContent button {
@@ -93,12 +93,6 @@
     padding-right: 100px;
 }
 
-/*.logoContent span svg {
-    width: 20px;
-    height: 20px;
-    margin: 0 20px;
-}*/
-
 .logoContentRight {
     display: flex;
 }
@@ -142,4 +136,48 @@
 .logoContentLeft button img {
     width: 20px;
     height: 20px;
+}
+
+/* --------------------------- Small menu --------------------------- */
+
+.hamburgerMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    /* Adjusted to align with the right side of the screen */
+    background-color: rgba(0, 0, 0, 0.895);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+#closeNavbar {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#closeNavbar img {
+    width: 20px;
+    /* Adjust as needed */
+}
+
+#openNavbar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10001;
+    /* Ensure it's above the menu */
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
 }
