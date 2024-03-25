@@ -1,5 +1,9 @@
 function openNavbar() {
-  document.getElementById("hamburgerMenu").style.width = "25%";
+  if (window.innerWidth < 769) {
+    document.getElementById("hamburgerMenu").style.width = "100%";
+  } else {
+    document.getElementById("hamburgerMenu").style.width = "25%";
+  }
   document.getElementById("blurEffect").classList.add("blur"); // Add blur class
 }
 

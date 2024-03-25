@@ -5,7 +5,7 @@
 
     .logoHeader {
         width: calc(100%-79px);
-        padding-left: 79px;
+        padding-left: 0px;
     }
 }
 
