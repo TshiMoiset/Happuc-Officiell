@@ -22,7 +22,7 @@
 
 </head>
 
-<body>
+<body id="body">
     <header>
 
         <div class="logoHeader">
@@ -120,7 +120,7 @@
             <div class="rightColumnContent columnTop">
 
                 <button id="openNavbutton" onclick="openNavbar()">
-                    <span><img src="ICONS/bars-solid.svg" alt="bars-solid"></span>
+                    <span onclick="openNavbar()"><img src="ICONS/bars-solid.svg" alt="bars-solid"></span>
                 </button>
 
             </div>
@@ -177,13 +177,14 @@
                 <li><a href="#">Shoes</a></li>
             </ul>
 
-            <button id="closeNavbar" onclick="closeNavbar()"><span><img src="ICONS/circle-xmark-regular.svg" alt=""></span></button>
+            <button id="closeNavbar" onclick="closeNavbar()"><span><img src="ICONS/circle-xmark-regular.svg"
+                        alt=""></span></button>
 
         </div>
 
     </header>
 
-    <main>
+    <main class="main-content" id="main-content">
 
         <!--<div class="rightColumn">
 

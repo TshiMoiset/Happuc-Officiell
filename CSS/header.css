@@ -22,7 +22,7 @@
     box-sizing: border-box;
     height: 100vh;
     background-color: transparent;
-  /*  z-index: 1;*/
+    /*  z-index: 1;*/
 }
 
 .rightColumnContent button {
@@ -140,6 +140,58 @@
 
 /* --------------------------- Small menu --------------------------- */
 
+#hamburgerMenu {
+    height: 100%;
+    width: 0;
+    /* Initially hidden */
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.895);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.hamburgerMenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hamburgerMenu ul li {
+    padding: 15px;
+    border-bottom: 1px solid #555;
+}
+
+.hamburgerMenu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#closeNavbar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+#closeNavbar img {
+    width: 20px;
+    height: 20px;
+}
+
+.blur {
+    filter: blur(5px);
+    /* Adjust blur intensity as needed */
+    transition: 0.5s ease-in-out;
+    /* Ensure ease-out timing function */
+}
+
+/*
 .hamburgerMenu {
     height: 100%;
     width: 0;
@@ -147,7 +199,6 @@
     z-index: 10000;
     top: 0;
     right: 0;
-    /* Adjusted to align with the right side of the screen */
     background-color: rgba(0, 0, 0, 0.895);
     overflow-x: hidden;
     padding-top: 60px;
@@ -166,7 +217,6 @@
 
 #closeNavbar img {
     width: 20px;
-    /* Adjust as needed */
 }
 
 #openNavbar {
@@ -174,10 +224,9 @@
     top: 20px;
     right: 20px;
     z-index: 10001;
-    /* Ensure it's above the menu */
     background: none;
     border: none;
     font-size: 24px;
     cursor: pointer;
     color: #fff;
-}
+}*/
