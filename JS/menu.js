@@ -1,8 +1,14 @@
 function openNavbar() {
-  if (window.innerWidth < 769) {
+  let screenWidth = window.innerWidth;
+
+  if (screenWidth < 426) {
     document.getElementById("hamburgerMenu").style.width = "100%";
+  } else if (screenWidth < 769) {
+    document.getElementById("hamburgerMenu").style.width = "40%";
+  } else if (screenWidth < 1025) {
+    document.getElementById("hamburgerMenu").style.width = "35%";
   } else {
-    document.getElementById("hamburgerMenu").style.width = "25%";
+    document.getElementById("hamburgerMenu").style.width = "25%"; // Default width for larger screens
   }
   document.getElementById("blurEffect").classList.add("blur"); // Add blur class
 }
