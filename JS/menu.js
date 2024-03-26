@@ -14,6 +14,6 @@ function openNavbar() {
 }
 
 function closeNavbar() {
-  document.getElementById("hamburgerMenu").style.width = "0";
+  document.getElementById("hamburgerMenu").style.width = "0%";
   document.getElementById("blurEffect").classList.remove("blur"); // Remove blur class
 }
