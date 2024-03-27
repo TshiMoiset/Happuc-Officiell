@@ -182,3 +182,54 @@
 .hamContentSection {
     margin-top: 30px;
 }
+
+/* ---------------------------- Shopping Cart ---------------------------- */
+#shoppingCart {
+    height: 100%;
+    width: 20% !important;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.5s;
+    color: black;
+    font-family: "Mark Probook";
+    text-align: center;
+}
+
+.shoppingCartHeader {
+    text-align: center;
+    width: 100%;
+    background-color: #2e2f2f;
+    padding: 29px;
+    color: white;
+}
+
+.CartHeaderContent p {
+    font-size: larger;
+}
+
+#closeShoppingCart {
+    position: absolute;
+    top: 27px;
+    left: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+#closeShoppingCart span img {
+    width: 27px;
+    height: 27px;
+}
+
+.shoppingCartMain {
+    padding: 0px 35px;
+}
+
+.shoppingCartContent {
+    padding: 35px 0px 10px;
+}

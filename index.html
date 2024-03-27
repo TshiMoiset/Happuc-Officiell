@@ -19,6 +19,7 @@
 
     <!-- JAVASCRIPT -->
     <script defer src="JS/menu.js"></script>
+    <script defer src="JS/shoppingCart.js"></script>
 
 </head>
 
@@ -88,7 +89,7 @@
 
                 <div class="hamContentSection">
                     <li><a href="#">New Arrivals</a></li>
-                    <li><a href="#">LookBook</a></li>
+                    <li><a href="#">Lookbook</a></li>
                 </div>
 
                 <div class="hamContentSection smallScreenLinks">
@@ -103,6 +104,62 @@
                     <img src="ICONS/close-o.svg" alt="close-o">
                 </span>
             </button>
+
+        </div>
+
+        <div class="shoppingCart" id="shoppingCart">
+
+            <div class="shoppingCartHeader">
+
+                <div class="CartHeaderContent CartContentLeft">
+                    <button id="closeShoppingCart" onclick="closeShoppingCart()">
+                        <span>
+                            <img src="ICONS/angle-right-solid.svg" alt="angle-right-solid">
+                        </span>
+                    </button>
+                </div>
+
+                <div class="CartHeaderContent CartContentCenter">
+                    <p>Shopping Cart</p>
+                </div>
+
+            </div>
+
+            <div class="shoppingCartMain">
+
+                <div class="shoppingCartContent">
+
+                    <div class="shoppingCartMainContent">
+
+                        <p>YOUR CART US CURRENTLY EMPTY</p>
+                        <p>Please log in to access your saved shopping cart</p>
+
+                    </div>
+
+                    <div class="shoppingCartMainContent">
+
+                        <ul>
+                            <li><a href="#">Log In</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="shoppingCartContent">
+
+                    <div class="shoppingCartMainContent">
+                        <p>SEEKING INSPERATION?</p>
+                        <p>Discover our latest styles</p>
+                    </div>
+
+                    <div class="shoppingCartMainContent">
+                        <button onclick="closeShoppingCart()">Lookbook</button>
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 
@@ -136,7 +193,7 @@
                     </span>
                 </button>
 
-                <button class="headerButton">
+                <button class="headerButton" onclick="openShoppingCart()">
                     <span>
                         <div class="headerButtonImg">
                             <img src="ICONS/shopping-bag.svg" alt="">
@@ -166,7 +223,7 @@
                 <button class="headerButton">
                     <span>
                         <div class="headerButtonImg">
-                            <img src="ICONS/user-circle-regular.svg" alt="profile">
+                            <img src="ICONS/user-circle-regular.svg" alt="user-circle-regular">
                         </div>
                         <div class="headerButtonText">
                             <p>Log In</p>
@@ -177,7 +234,7 @@
                 <button class="headerButton">
                     <span>
                         <div class="headerButtonImg">
-                            <img src="ICONS/bookmark-regular.svg" alt="">
+                            <img src="ICONS/bookmark-regular.svg" alt="bookmark-regular">
                         </div>
                         <div class="headerButtonText">
                             <p>Favourites</p>
@@ -185,10 +242,10 @@
                     </span>
                 </button>
 
-                <button class="headerButton">
+                <button class="headerButton" onclick="openShoppingCart()">
                     <span>
                         <div class="headerButtonImg">
-                            <img src="ICONS/shopping-bag.svg" alt="">
+                            <img src="ICONS/shopping-bag.svg" alt="shopping-bag">
                         </div>
                         <div class="headerButtonText">
                             <p>Shopping Cart</p>
