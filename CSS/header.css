@@ -79,6 +79,10 @@
     text-align: center;
 }
 
+.headerButtonText {
+    font-family: "Mark Probook";
+}
+
 .logoContentRight {
     display: flex;
 }
@@ -136,6 +140,8 @@
     background-color: white;
     overflow-y: hidden;
     transition: 0.5s;
+    color: black;
+    font-family: "Mark Probook";
 }
 
 .hamburgerMenu ul {
@@ -144,7 +150,7 @@
 }
 
 .hamburgerMenu ul li {
-    padding: 15px;
+    padding: 15px 0px 15px 0px;
 }
 
 .hamburgerMenu ul li a {

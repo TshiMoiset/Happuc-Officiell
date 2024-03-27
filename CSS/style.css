@@ -30,36 +30,6 @@ main {
 }
 
 @font-face {
-    font-family: "";
-    src: url("../");
-}
-
-@font-face {
-    font-family: "";
-    src: url("../");
-}
-
-@font-face {
-    font-family: "";
-    src: url("../");
-}
-
-@font-face {
-    font-family: "";
-    src: url("../");
-}
-
-@font-face {
-    font-family: "";
-    src: url("../");
-}
-
-@font-face {
-    font-family: "";
-    src: url("../");
-}
-
-@font-face {
-    font-family: "";
-    src: url("../");
+    font-family: "Mark Probook";
+    src: url("../FONT/MARKPROBOOK.OTF");
 }
