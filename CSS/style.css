@@ -24,11 +24,42 @@ main {
     margin: 0 79px;
 }
 
-/*::-webkit-scrollbar {
-    width: 0px;
-}*/
+@font-face {
+    font-family: "Singolare";
+    src: url("../FONT/Fontspring-DEMO-singolarestencil-bold.otf");
+}
 
 @font-face {
-    font-family: "Spring";
-    src: url("../FONT/Fontspring-DEMO-singolarestencil-bold.otf");
+    font-family: "";
+    src: url("../");
+}
+
+@font-face {
+    font-family: "";
+    src: url("../");
+}
+
+@font-face {
+    font-family: "";
+    src: url("../");
+}
+
+@font-face {
+    font-family: "";
+    src: url("../");
+}
+
+@font-face {
+    font-family: "";
+    src: url("../");
+}
+
+@font-face {
+    font-family: "";
+    src: url("../");
+}
+
+@font-face {
+    font-family: "";
+    src: url("../");
 }
