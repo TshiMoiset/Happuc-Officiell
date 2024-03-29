@@ -21,9 +21,16 @@
     }
 
     .logoContentRight {
+        padding-right: 80px;
+    }
+
+    .headerButtonText {
         display: none;
     }
 
+    .headerButtonImg {
+        padding: 0px;
+    }
 }
 
 @media screen and (max-width: 540px) {
