@@ -186,7 +186,8 @@
 /* ---------------------------- Shopping Cart ---------------------------- */
 #shoppingCart {
     height: 100%;
-    width: 20% !important;
+    /*width: 0%;*/
+    width: 340px !important;
     position: fixed;
     z-index: 10000;
     top: 0;
@@ -199,37 +200,61 @@
     text-align: center;
 }
 
-.shoppingCartHeader {
-    text-align: center;
-    width: 100%;
+.cartHeaderContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    color: white;
     background-color: #2e2f2f;
-    padding: 29px;
-    color: white;
 }
 
-.CartHeaderContent p {
-    font-size: larger;
+.cartHeaderContent p {
+    font-size: large;
 }
 
-#closeShoppingCart {
-    position: absolute;
-    top: 27px;
-    left: 30px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: white;
-}
-
-#closeShoppingCart span img {
+.cartHeaderContent button span img {
     width: 27px;
     height: 27px;
 }
 
-.shoppingCartMain {
-    padding: 0px 35px;
+.cartHeaderContent button {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
-.shoppingCartContent {
-    padding: 35px 0px 10px;
+.cartHeaderRight {
+    visibility: hidden;
+    user-select: none;
+}
+
+.cartMainContainer {
+    margin: 35px;
+}
+
+.cartMainContent {
+    margin-bottom: 40px;
+}
+
+.cartMainPart {
+    margin-bottom: 15px;
+}
+
+.cartMainText p {
+    padding: 1px 0px;
+}
+
+.cartMainPart ul li {
+    list-style: none;
+    padding: 0px;
+}
+
+.cartMainPart button {
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: #2e2f2f;
+    color: white;
+    cursor: pointer;
 }
