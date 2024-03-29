@@ -249,6 +249,12 @@
     padding: 0px;
 }
 
+.cartMainPart a {
+    color: black;
+}
+
+
+
 .cartMainPart button {
     width: 150px;
     height: 30px;
