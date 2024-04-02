@@ -28,6 +28,10 @@
     .smallHeader {
         display: block;
     }
+
+    .chatButton {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 540px) {
