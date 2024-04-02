@@ -32,6 +32,10 @@
     .chatButton {
         display: block;
     }
+
+    #logInPage {
+        height: 93% !important;
+    }
 }
 
 @media screen and (max-width: 540px) {

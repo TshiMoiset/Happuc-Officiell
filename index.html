@@ -17,9 +17,12 @@
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/mediaQueries.css">
 
+    <link rel="stylesheet" href="CSS/account.css">
+
     <!-- JAVASCRIPT -->
     <script defer src="JS/menu.js"></script>
     <script defer src="JS/shoppingCart.js"></script>
+    <script defer src="JS/logIn.js"></script>
 
 </head>
 
@@ -326,6 +329,137 @@
                     </div>
                 </span>
             </button>
+        </div>
+
+        <div class="logInPage" id="logInPage">
+
+            <div class="logInPageContent">
+
+                <div class="logInMain">
+
+                    <div class="signInAccount">
+
+                        <div class="loginText">
+                            <p>READY FOR SOME SHOPPING?</p>
+                            <p>Log in with your email address and get ready for an exciting shopping experience.</p>
+                        </div>
+
+                        <form>
+
+                            <div class="signInInputRow">
+                                <div class="signInInputGroup">
+                                    <input type="email" placeholder="E-post" name="Surname" required autocomplete="off">
+                                </div>
+                            </div>
+
+                            <div class="signInInputRow">
+                                <div class="signInInputGroup">
+                                    <input type="password" placeholder="Password" name="emailAddress" required
+                                        autocomplete="off">
+                                </div>
+                            </div>
+
+                            <div class="signInInputRow checkboxAndText">
+                                <label>
+                                    <input type="checkbox" name="rememberMe">
+                                    Remember Me
+                                </label>
+                            </div>
+
+                            <div class="signInInputRow signUpButton">
+                                <button type="submit">Sign In</i></i></button>
+                            </div>
+
+                            <div class="loginInputRow loginPassword">
+                                <ul>
+                                    <li><a href="#">Glömt Lösenordet?</a></li>
+                                </ul>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                    <div class="registerAccount">
+
+                        <form>
+
+                            <div class="signUpInputRow">
+                                <div class="signUpInputGroup">
+                                    <input type="text" placeholder="First name" name="firstname" required
+                                        autocomplete="off">
+                                    <input type="text" placeholder="Surename" name="Surname" required
+                                        autocomplete="off">
+                                </div>
+                            </div>
+
+                            <div class="signUpInputRow">
+                                <div class="signUpInputGroup">
+                                    <input type="email" placeholder="E-post" name="emailAddress" required
+                                        autocomplete="off">
+                                    <input type="number" placeholder="Phone" name="phoneNumber" required
+                                        autocomplete="off">
+                                </div>
+                            </div>
+
+                            <div class="signUpInputRow">
+                                <div class="signUpInputGroup">
+
+                                    <div class="selectDay">
+                                        <select required id="daySelect">
+                                            <option value="" disabled selected>Day</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="selectMonth">
+                                        <select required id="monthSelect">
+                                            <option value="" disabled selected>Month</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="selectYear">
+                                        <select required id="yearSelect">
+                                            <option value="" disabled selected>Year</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="signUpInputRow">
+                                <div class="signUpInputGroup">
+                                    <input type="password" placeholder="Password" name="emailAddress" required
+                                        autocomplete="off">
+                                </div>
+                            </div>
+
+                            <div class="signUpInputRow signUpButton">
+                                <button type="submit">Register</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="accountChangeButtons">
+                <button onclick="displaySignIn()" id="signInButton" class="active">Sign In</button>
+                <button onclick="displayRegister()" id="registerButton">Register</button>
+            </div>
+
+
+
+            <button id="closeLogInPage" onclick="closeLogInPage()">
+                <span>
+                    <img src="ICONS/circle-xmark-regular.svg" alt="close-o">
+                </span>
+            </button>
+
         </div>
 
         <div class="heroImg"></div>
