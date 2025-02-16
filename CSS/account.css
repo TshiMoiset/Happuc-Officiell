@@ -1,0 +1,61 @@
+.registerAccount {
+    display: none;
+}
+
+#logInPage {
+    height: 90.8%;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.774);
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Mark Probook";
+}
+
+#closeLogInPage {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    z-index: 100000;
+}
+
+#closeLogInPage span img {
+    width: 40px;
+    height: 40px;
+}
+
+.accountChangeButtons {
+    position: absolute;
+    top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.accountChangeButtons button {
+    border-bottom: solid 3px #2e2f2f90;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.accountChangeButtons button.active {
+    border-bottom: 3px solid black;
+}
