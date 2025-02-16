@@ -1,7 +1,7 @@
 header {
     position: fixed;
     width: 100%;
-    padding: 16px 50px;
+    padding: 16px 77px;
     transition: 500ms;
     z-index: 1;
     background-color: white;
@@ -42,7 +42,7 @@ header {
 }
 
 .menuIcon {
-    padding: 20px;
+    padding: 5px;
 }
 
 .menuIcon span img {
@@ -66,12 +66,50 @@ header {
 
 .heroImgContainer {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
     text-align: center;
-    padding: 100px 150px;
 }
 
-.heroImgContainer img {
-    width: 600px;
-    height: 600px;
+.heroImgContainer1 {
+    background-image: url("../IMAGES/2.png");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.heroImgContainer2 {
+    background-image: url("../IMAGES/1.png");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.heroImgContainer3 {
+    background-image: url("../IMAGES/4.png");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.heroImgContainer4 {
+    background-image: url("../IMAGES/3.png");
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navigationLinks a {
+    font-weight: bold;
 }
