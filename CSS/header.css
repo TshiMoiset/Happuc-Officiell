@@ -81,9 +81,9 @@ header {
 }
 
 .heroImgContainer2 {
-    background-image: url("../IMAGES/1.png");
     min-height: 100vh;
     width: 100%;
+    background-image: url("../IMAGES/1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,9 +91,9 @@ header {
 }
 
 .heroImgContainer3 {
-    background-image: url("../IMAGES/4.png");
     min-height: 100vh;
     width: 100%;
+    background-image: url("../IMAGES/4.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,9 +101,9 @@ header {
 }
 
 .heroImgContainer4 {
-    background-image: url("../IMAGES/3.png");
     min-height: 100vh;
     width: 100%;
+    background-image: url("../IMAGES/3.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
